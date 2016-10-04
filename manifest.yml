@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: sunghoMobile
+  host: sunghoMobile
+  disk_quota: 1024M
+  services:
+  - sunghoMobile-AdvancedMobileAccess
+  - sunghoMobile-imfpush
+  - sunghoMobile-cloudantNoSQLDB
